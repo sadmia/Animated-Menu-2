@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#body {
+	font-family: arial;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to top, #e0e0e0 , #55a7f1);
+	transition: 0.5s;
+}
+
+.Animated-Menu {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 290px;
+	height: 55px;
+	overflow: hidden;
+	transition: 0.5s;
+	background-color: #000;
+}
+
+.header-site {
+	width: 100%;
+	height: 55px;
+	background-color: #178EF8;
+}
+
+.header-site ul {
+	padding: 0px;
+	margin-bottom: 0px;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.header-site ul li {
+	display: inline-block;
+	padding: 2px 10px;
+	font-size: 20px;
+	color: #fff;
+}
+.header-site ul .btn {
+	position: relative;
+	cursor: pointer;
+	border-radius: 50%;    
+	width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.header-site ul .btn #close , .header-site ul .btn #manu {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 10px 10px;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+.header-site ul .btn:active {
+	background-color: #3332;
+}
+
+#close {
+	display: none;
+}
+.list-manu {
+	padding: 0px;
+	margin-bottom: 0px;
+	padding-top: 2px;
+}
+.list-manu li {
+	list-style: none;
+	padding: 15px 15px;
+	font-weight: 600;
+	cursor: pointer;
+	color: #fff;
+	transition: 2s;
+}
+.list-manu li:hover {
+	background-color: #178EF8;
+	transition: 0.1s;
+}
